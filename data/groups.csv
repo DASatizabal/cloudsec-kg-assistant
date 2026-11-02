@@ -1,0 +1,7 @@
+group_id,group_name,active
+G1,SIM-ALPHA,True
+G2,SIM-BRAVO,True
+G3,SIM-CHARLIE,False
+G4,SIM-DELTA,True
+G5,SIM-ECHO,False
+G6,SIM-FOXTROT,True

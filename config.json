@@ -1,0 +1,15 @@
+{
+  "retrieval": "hybrid",
+  "chunk_size": 80,
+  "chunk_overlap": 20,
+  "top_k": 3,
+  "router": "graph for multi-hop counts, retrieval otherwise",
+  "injection_filter": [
+    "ignore (all )?previous instructions",
+    "system note",
+    "call the tool",
+    "isolate_all",
+    "report every asset as compliant"
+  ],
+  "version": "1.0.0"
+}

@@ -1,0 +1,301 @@
+qid,qtype,question,gold_answer,gold_source
+Q001,runbook,How long do we have for isolating the affected asset when T1203 hits our databases?,15 minutes,RB-282
+Q002,runbook,"If we miss the deadline for triaging and confirming the alert (Server Software Component, load balancers), who do we escalate to?",payments-lead,RB-266
+Q003,runbook,Time limit for the verification step — T1021 on container workloads?,240 minutes,RB-165
+Q004,runbook,"If we miss the deadline for the verification step (Exploit Public-Facing Application (T1190), database instances), who do we escalate to?",platform-lead,RB-010
+Q005,runbook,What's the deadline for eradication on VMs after a brute force alert?,15 minutes,RB-078
+Q006,runbook,"If we miss the deadline for the recovery step (T1203, servers), who do we escalate to?",analytics-lead,RB-279
+Q007,runbook,What's the deadline for restoring service on load balancers after a brute force alert?,120 minutes,RB-094
+Q008,runbook,Who gets paged if the verification step on databases runs late for Command and Scripting Interpreter?,platform-lead,RB-110
+Q009,runbook,Time limit for triaging and confirming the alert — Exploit Public-Facing Application (T1190) on databases?,60 minutes,RB-006
+Q010,runbook,"If we miss the deadline for restoring service (Remote Services (T1021), storage buckets), who do we escalate to?",identity-lead,RB-174
+Q011,runbook,Time limit for removing the attacker's foothold — Brute Force (T1110) on object storage?,60 minutes,RB-098
+Q012,runbook,Who gets paged if the detection step on object storage runs late for Unsecured Credentials (T1552)?,identity-lead,RB-196
+Q013,runbook,How long do we have for the verification step when Unsecured Credentials hits our databases?,240 minutes,RB-185
+Q014,runbook,"If we miss the deadline for the verification step (remote services, VMs), who do we escalate to?",analytics-lead,RB-155
+Q015,runbook,Time limit for eradication — Valid Accounts on databases?,45 minutes,RB-058
+Q016,runbook,Who gets paged if the detection step on containers runs late for T1078?,data-lead,RB-061
+Q017,runbook,How long do we have for removing the attacker's foothold when Exploitation for Privilege Escalation hits our storage buckets?,90 minutes,RB-148
+Q018,runbook,"If we miss the deadline for restoring service (T1059, databases), who do we escalate to?",platform-lead,RB-109
+Q019,runbook,What's the deadline for restoring service on container workloads after a T1078 alert?,240 minutes,RB-064
+Q020,runbook,"If we miss the deadline for triaging and confirming the alert (T1068, load balancers), who do we escalate to?",payments-lead,RB-141
+Q021,runbook,Time limit for triaging and confirming the alert — remote services on database instances?,30 minutes,RB-156
+Q022,runbook,"If we miss the deadline for verifying that controls hold (Command and Scripting Interpreter, servers), who do we escalate to?",analytics-lead,RB-105
+Q023,runbook,What's the deadline for removing the attacker's foothold on object storage after a Exfiltration Over Web Service alert?,60 minutes,RB-248
+Q024,runbook,"If we miss the deadline for isolating the affected asset (external remote services, storage buckets), who do we escalate to?",identity-lead,RB-047
+Q025,runbook,Time limit for eradication — external remote services on load balancers?,45 minutes,RB-043
+Q026,runbook,Who gets paged if triaging and confirming the alert on servers runs late for Exploitation for Client Execution (T1203)?,analytics-lead,RB-276
+Q027,runbook,What's the deadline for the detection step on databases after a T1203 alert?,120 minutes,RB-281
+Q028,runbook,Who gets paged if containing it on load balancers runs late for T1059?,payments-lead,RB-117
+Q029,runbook,What's the deadline for the recovery step on container workloads after a Data Encrypted for Impact (T1486) alert?,15 minutes,RB-214
+Q030,runbook,Who gets paged if containing it on container workloads runs late for T1567?,data-lead,RB-237
+Q031,runbook,How long do we have for eradication when Exploit Public-Facing Application (T1190) hits our LBs?,45 minutes,RB-018
+Q032,runbook,Who gets paged if verifying that controls hold on containers runs late for exfiltration over web service?,data-lead,RB-240
+Q033,runbook,What's the deadline for the recovery step on database instances after a External Remote Services alert?,120 minutes,RB-034
+Q034,runbook,"If we miss the deadline for the verification step (Exploit Public-Facing Application (T1190), object storage), who do we escalate to?",identity-lead,RB-025
+Q035,runbook,Time limit for triaging and confirming the alert — External Remote Services (T1133) on storage buckets?,240 minutes,RB-046
+Q036,runbook,"If we miss the deadline for eradication (Exploit Public-Facing Application (T1190), database instances), who do we escalate to?",platform-lead,RB-008
+Q037,runbook,Time limit for the recovery step — command and scripting interpreter on containers?,90 minutes,RB-114
+Q038,runbook,Who gets paged if the verification step on load balancers runs late for unsecured credentials?,payments-lead,RB-195
+Q039,runbook,What's the deadline for containing it on container workloads after a Command and Scripting Interpreter (T1059) alert?,45 minutes,RB-112
+Q040,runbook,Who gets paged if removing the attacker's foothold on LBs runs late for Brute Force (T1110)?,payments-lead,RB-093
+Q041,runbook,What's the deadline for the detection step on servers after a brute force alert?,15 minutes,RB-076
+Q042,runbook,"If we miss the deadline for eradication (brute force, database instances), who do we escalate to?",platform-lead,RB-083
+Q043,runbook,How long do we have for the recovery step when command and scripting interpreter hits our LBs?,60 minutes,RB-119
+Q044,runbook,"If we miss the deadline for isolating the affected asset (Brute Force, VMs), who do we escalate to?",analytics-lead,RB-077
+Q045,runbook,Time limit for verifying that controls hold — exploitation for privilege escalation on servers?,90 minutes,RB-130
+Q046,runbook,Who gets paged if eradication on object storage runs late for T1552?,identity-lead,RB-198
+Q047,runbook,Time limit for triaging and confirming the alert — T1486 on containers?,60 minutes,RB-211
+Q048,runbook,Who gets paged if restoring service on containers runs late for Exploitation for Client Execution (T1203)?,data-lead,RB-289
+Q049,runbook,Time limit for verifying that controls hold — data encrypted for impact on load balancers?,60 minutes,RB-220
+Q050,runbook,Who gets paged if the recovery step on servers runs late for unsecured credentials?,analytics-lead,RB-179
+Q051,runbook,What's the deadline for the verification step on load balancers after a T1068 alert?,120 minutes,RB-145
+Q052,runbook,Who gets paged if containing it on container workloads runs late for Unsecured Credentials (T1552)?,data-lead,RB-187
+Q053,runbook,Time limit for verifying that controls hold — brute force on databases?,60 minutes,RB-085
+Q054,runbook,"If we miss the deadline for restoring service (T1567, object storage), who do we escalate to?",identity-lead,RB-249
+Q055,runbook,How long do we have for eradication when Exploitation for Client Execution hits our servers?,15 minutes,RB-278
+Q056,runbook,Who gets paged if restoring service on object storage runs late for Valid Accounts?,identity-lead,RB-074
+Q057,runbook,How long do we have for the verification step when Exfiltration Over Web Service (T1567) hits our LBs?,15 minutes,RB-245
+Q058,runbook,"If we miss the deadline for the detection step (External Remote Services, VMs), who do we escalate to?",analytics-lead,RB-026
+Q059,runbook,What's the deadline for the verification step on database instances after a Data Encrypted for Impact (T1486) alert?,60 minutes,RB-210
+Q060,runbook,"If we miss the deadline for the verification step (valid accounts, database instances), who do we escalate to?",platform-lead,RB-060
+Q061,runbook,Time limit for containing it — Exploit Public-Facing Application (T1190) on databases?,240 minutes,RB-007
+Q062,runbook,Who gets paged if restoring service on database instances runs late for T1552?,platform-lead,RB-184
+Q063,runbook,Time limit for triaging and confirming the alert — Unsecured Credentials on containers?,45 minutes,RB-186
+Q064,runbook,Who gets paged if containing it on storage buckets runs late for Exploitation for Privilege Escalation (T1068)?,identity-lead,RB-147
+Q065,runbook,What's the deadline for triaging and confirming the alert on databases after a T1133 alert?,15 minutes,RB-031
+Q066,runbook,"If we miss the deadline for eradication (Exploit Public-Facing Application (T1190), storage buckets), who do we escalate to?",identity-lead,RB-023
+Q067,runbook,What's the deadline for the verification step on servers after a T1505 alert?,90 minutes,RB-255
+Q068,runbook,"If we miss the deadline for containing it (T1078, databases), who do we escalate to?",platform-lead,RB-057
+Q069,runbook,What's the deadline for eradication on container workloads after a Exfiltration Over Web Service (T1567) alert?,45 minutes,RB-238
+Q070,runbook,"If we miss the deadline for the detection step (Exploitation for Client Execution (T1203), containers), who do we escalate to?",data-lead,RB-286
+Q071,runbook,Time limit for containing it — exploitation for privilege escalation on VMs?,120 minutes,RB-127
+Q072,runbook,"If we miss the deadline for restoring service (Exfiltration Over Web Service, servers), who do we escalate to?",analytics-lead,RB-229
+Q073,runbook,What's the deadline for the recovery step on databases after a Exploitation for Client Execution alert?,15 minutes,RB-284
+Q074,runbook,Who gets paged if the detection step on database instances runs late for T1505?,platform-lead,RB-256
+Q075,runbook,What's the deadline for the recovery step on database instances after a remote services alert?,45 minutes,RB-159
+Q076,runbook,"If we miss the deadline for triaging and confirming the alert (T1567, VMs), who do we escalate to?",analytics-lead,RB-226
+Q077,runbook,What's the deadline for restoring service on VMs after a brute force alert?,30 minutes,RB-079
+Q078,runbook,Who gets paged if isolating the affected asset on LBs runs late for T1078?,payments-lead,RB-067
+Q079,runbook,How long do we have for isolating the affected asset when T1203 hits our object storage?,15 minutes,RB-297
+Q080,runbook,"If we miss the deadline for eradication (Unsecured Credentials, LBs), who do we escalate to?",payments-lead,RB-193
+Q081,runbook,How long do we have for containing it when Unsecured Credentials hits our databases?,15 minutes,RB-182
+Q082,runbook,Who gets paged if verifying that controls hold on load balancers runs late for Exploit Public-Facing Application?,payments-lead,RB-020
+Q083,runbook,How long do we have for triaging and confirming the alert when Remote Services (T1021) hits our object storage?,90 minutes,RB-171
+Q084,runbook,Who gets paged if the verification step on servers runs late for Brute Force (T1110)?,analytics-lead,RB-080
+Q085,runbook,Time limit for triaging and confirming the alert — brute force on LBs?,240 minutes,RB-091
+Q086,runbook,Who gets paged if removing the attacker's foothold on databases runs late for Exploitation for Privilege Escalation?,platform-lead,RB-133
+Q087,runbook,Time limit for removing the attacker's foothold — Valid Accounts (T1078) on object storage?,15 minutes,RB-073
+Q088,runbook,Who gets paged if triaging and confirming the alert on LBs runs late for exploit public-facing application?,payments-lead,RB-016
+Q089,runbook,What's the deadline for triaging and confirming the alert on container workloads after a T1190 alert?,90 minutes,RB-011
+Q090,runbook,Who gets paged if removing the attacker's foothold on database instances runs late for Remote Services?,platform-lead,RB-158
+Q091,runbook,Time limit for the verification step — Data Encrypted for Impact (T1486) on object storage?,30 minutes,RB-225
+Q092,runbook,Who gets paged if the recovery step on load balancers runs late for valid accounts?,payments-lead,RB-069
+Q093,runbook,How long do we have for eradication when T1486 hits our storage buckets?,120 minutes,RB-223
+Q094,runbook,Who gets paged if removing the attacker's foothold on container workloads runs late for T1133?,data-lead,RB-038
+Q095,runbook,What's the deadline for containing it on load balancers after a exploit public-facing application alert?,90 minutes,RB-017
+Q096,runbook,Who gets paged if the verification step on LBs runs late for command and scripting interpreter?,payments-lead,RB-120
+Q097,runbook,Time limit for restoring service — Server Software Component (T1505) on LBs?,45 minutes,RB-269
+Q098,runbook,Who gets paged if verifying that controls hold on LBs runs late for T1505?,payments-lead,RB-270
+Q099,runbook,What's the deadline for eradication on LBs after a Valid Accounts alert?,45 minutes,RB-068
+Q100,runbook,Who gets paged if containing it on servers runs late for Command and Scripting Interpreter (T1059)?,analytics-lead,RB-102
+Q101,runbook,What's the deadline for verifying that controls hold on load balancers after a Valid Accounts (T1078) alert?,30 minutes,RB-070
+Q102,runbook,"If we miss the deadline for isolating the affected asset (External Remote Services (T1133), databases), who do we escalate to?",platform-lead,RB-032
+Q103,runbook,How long do we have for removing the attacker's foothold when Remote Services hits our object storage?,60 minutes,RB-173
+Q104,runbook,Who gets paged if restoring service on object storage runs late for Exploitation for Privilege Escalation (T1068)?,identity-lead,RB-149
+Q105,runbook,How long do we have for restoring service when data encrypted for impact hits our object storage?,240 minutes,RB-224
+Q106,runbook,Who gets paged if verifying that controls hold on containers runs late for Command and Scripting Interpreter?,data-lead,RB-115
+Q107,runbook,What's the deadline for the recovery step on load balancers after a T1190 alert?,60 minutes,RB-019
+Q108,runbook,Who gets paged if the verification step on VMs runs late for Unsecured Credentials (T1552)?,analytics-lead,RB-180
+Q109,runbook,Time limit for isolating the affected asset — Brute Force (T1110) on storage buckets?,240 minutes,RB-097
+Q110,runbook,"If we miss the deadline for triaging and confirming the alert (Remote Services (T1021), load balancers), who do we escalate to?",payments-lead,RB-166
+Q111,runbook,Time limit for isolating the affected asset — Exploitation for Client Execution on load balancers?,240 minutes,RB-292
+Q112,runbook,Who gets paged if containing it on container workloads runs late for brute force?,data-lead,RB-087
+Q113,runbook,Time limit for isolating the affected asset — exfiltration over web service on object storage?,60 minutes,RB-247
+Q114,runbook,"If we miss the deadline for the recovery step (exploitation for privilege escalation, load balancers), who do we escalate to?",payments-lead,RB-144
+Q115,runbook,How long do we have for containing it when T1567 hits our database instances?,60 minutes,RB-232
+Q116,runbook,"If we miss the deadline for the verification step (command and scripting interpreter, object storage), who do we escalate to?",identity-lead,RB-125
+Q117,runbook,How long do we have for the verification step when Exploitation for Privilege Escalation (T1068) hits our containers?,30 minutes,RB-140
+Q118,runbook,Who gets paged if eradication on VMs runs late for Remote Services?,analytics-lead,RB-153
+Q119,runbook,What's the deadline for the verification step on servers after a data encrypted for impact alert?,60 minutes,RB-205
+Q120,runbook,Who gets paged if triaging and confirming the alert on databases runs late for T1078?,platform-lead,RB-056
+Q121,runbook,What's the deadline for removing the attacker's foothold on database instances after a Exfiltration Over Web Service alert?,45 minutes,RB-233
+Q122,runbook,Who gets paged if removing the attacker's foothold on databases runs late for unsecured credentials?,platform-lead,RB-183
+Q123,runbook,What's the deadline for the detection step on databases after a Unsecured Credentials alert?,60 minutes,RB-181
+Q124,runbook,"If we miss the deadline for eradication (Exploitation for Privilege Escalation, container workloads), who do we escalate to?",data-lead,RB-138
+Q125,runbook,Time limit for isolating the affected asset — Server Software Component on VMs?,30 minutes,RB-252
+Q126,runbook,Who gets paged if restoring service on container workloads runs late for T1133?,data-lead,RB-039
+Q127,runbook,Time limit for triaging and confirming the alert — T1068 on servers?,90 minutes,RB-126
+Q128,runbook,Who gets paged if restoring service on LBs runs late for unsecured credentials?,payments-lead,RB-194
+Q129,runbook,What's the deadline for eradication on LBs after a T1021 alert?,60 minutes,RB-168
+Q130,runbook,Who gets paged if the recovery step on VMs runs late for T1486?,analytics-lead,RB-204
+Q131,runbook,How long do we have for removing the attacker's foothold when command and scripting interpreter hits our containers?,60 minutes,RB-113
+Q132,runbook,"If we miss the deadline for verifying that controls hold (server software component, containers), who do we escalate to?",data-lead,RB-265
+Q133,runbook,How long do we have for removing the attacker's foothold when T1059 hits our LBs?,45 minutes,RB-118
+Q134,runbook,"If we miss the deadline for removing the attacker's foothold (exploitation for client execution, database instances), who do we escalate to?",platform-lead,RB-283
+Q135,runbook,How long do we have for restoring service when T1505 hits our storage buckets?,60 minutes,RB-274
+Q136,runbook,"If we miss the deadline for isolating the affected asset (Data Encrypted for Impact (T1486), storage buckets), who do we escalate to?",identity-lead,RB-222
+Q137,runbook,What's the deadline for containing it on servers after a T1552 alert?,120 minutes,RB-177
+Q138,runbook,"If we miss the deadline for eradication (Exploit Public-Facing Application, VMs), who do we escalate to?",analytics-lead,RB-003
+Q139,runbook,Time limit for triaging and confirming the alert — Command and Scripting Interpreter on load balancers?,45 minutes,RB-116
+Q140,runbook,"If we miss the deadline for removing the attacker's foothold (Unsecured Credentials (T1552), servers), who do we escalate to?",analytics-lead,RB-178
+Q141,runbook,Time limit for the detection step — T1552 on servers?,30 minutes,RB-176
+Q142,runbook,Who gets paged if triaging and confirming the alert on storage buckets runs late for command and scripting interpreter?,identity-lead,RB-121
+Q143,runbook,How long do we have for the recovery step when Data Encrypted for Impact hits our databases?,45 minutes,RB-209
+Q144,runbook,Who gets paged if the verification step on database instances runs late for Server Software Component?,platform-lead,RB-260
+Q145,runbook,How long do we have for eradication when exploitation for privilege escalation hits our VMs?,30 minutes,RB-128
+Q146,runbook,"If we miss the deadline for the verification step (Valid Accounts, storage buckets), who do we escalate to?",identity-lead,RB-075
+Q147,runbook,What's the deadline for the verification step on VMs after a External Remote Services (T1133) alert?,30 minutes,RB-030
+Q148,runbook,Who gets paged if the recovery step on databases runs late for brute force?,platform-lead,RB-084
+Q149,runbook,Time limit for isolating the affected asset — server software component on containers?,60 minutes,RB-262
+Q150,runbook,"If we miss the deadline for eradication (Command and Scripting Interpreter (T1059), database instances), who do we escalate to?",platform-lead,RB-108
+Q151,runbook,Time limit for eradication — Exploitation for Client Execution on container workloads?,240 minutes,RB-288
+Q152,runbook,Who gets paged if triaging and confirming the alert on storage buckets runs late for Exfiltration Over Web Service?,identity-lead,RB-246
+Q153,runbook,How long do we have for triaging and confirming the alert when server software component hits our servers?,120 minutes,RB-251
+Q154,runbook,Who gets paged if verifying that controls hold on LBs runs late for Exploitation for Client Execution?,payments-lead,RB-295
+Q155,runbook,What's the deadline for the detection step on database instances after a Exfiltration Over Web Service alert?,30 minutes,RB-231
+Q156,runbook,Who gets paged if triaging and confirming the alert on LBs runs late for T1078?,payments-lead,RB-066
+Q157,runbook,What's the deadline for containing it on object storage after a unsecured credentials alert?,240 minutes,RB-197
+Q158,runbook,Who gets paged if the detection step on container workloads runs late for brute force?,data-lead,RB-086
+Q159,runbook,How long do we have for containing it when data encrypted for impact hits our container workloads?,120 minutes,RB-212
+Q160,runbook,"If we miss the deadline for the verification step (T1021, databases), who do we escalate to?",platform-lead,RB-160
+Q161,runbook,How long do we have for removing the attacker's foothold when Exploit Public-Facing Application (T1190) hits our containers?,120 minutes,RB-013
+Q162,runbook,Who gets paged if triaging and confirming the alert on containers runs late for T1133?,data-lead,RB-036
+Q163,runbook,How long do we have for the recovery step when T1133 hits our servers?,240 minutes,RB-029
+Q164,runbook,Who gets paged if removing the attacker's foothold on LBs runs late for exploitation for privilege escalation?,payments-lead,RB-143
+Q165,runbook,How long do we have for the verification step when Exfiltration Over Web Service (T1567) hits our servers?,120 minutes,RB-230
+Q166,runbook,Who gets paged if verifying that controls hold on servers runs late for Exploitation for Client Execution (T1203)?,analytics-lead,RB-280
+Q167,runbook,How long do we have for restoring service when Remote Services (T1021) hits our load balancers?,30 minutes,RB-169
+Q168,runbook,"If we miss the deadline for containing it (T1078, servers), who do we escalate to?",analytics-lead,RB-052
+Q169,runbook,How long do we have for triaging and confirming the alert when Brute Force hits our storage buckets?,120 minutes,RB-096
+Q170,runbook,Who gets paged if isolating the affected asset on database instances runs late for data encrypted for impact?,platform-lead,RB-207
+Q171,runbook,What's the deadline for the recovery step on LBs after a T1486 alert?,90 minutes,RB-219
+Q172,runbook,Who gets paged if isolating the affected asset on load balancers runs late for T1133?,payments-lead,RB-042
+Q173,runbook,How long do we have for verifying that controls hold when Brute Force hits our container workloads?,240 minutes,RB-090
+Q174,runbook,"If we miss the deadline for the detection step (Data Encrypted for Impact, LBs), who do we escalate to?",payments-lead,RB-216
+Q175,runbook,How long do we have for isolating the affected asset when T1068 hits our container workloads?,15 minutes,RB-137
+Q176,runbook,"If we miss the deadline for containing it (External Remote Services (T1133), servers), who do we escalate to?",analytics-lead,RB-027
+Q177,runbook,What's the deadline for removing the attacker's foothold on LBs after a T1203 alert?,240 minutes,RB-293
+Q178,runbook,Who gets paged if containing it on load balancers runs late for T1068?,payments-lead,RB-142
+Q179,runbook,Time limit for the recovery step — Unsecured Credentials (T1552) on object storage?,120 minutes,RB-199
+Q180,runbook,"If we miss the deadline for triaging and confirming the alert (Exploit Public-Facing Application (T1190), VMs), who do we escalate to?",analytics-lead,RB-001
+Q181,runbook,How long do we have for removing the attacker's foothold when Server Software Component (T1505) hits our LBs?,90 minutes,RB-268
+Q182,runbook,Who gets paged if containing it on object storage runs late for T1505?,identity-lead,RB-272
+Q183,runbook,What's the deadline for triaging and confirming the alert on VMs after a Command and Scripting Interpreter alert?,120 minutes,RB-101
+Q184,runbook,Who gets paged if the recovery step on databases runs late for Server Software Component?,platform-lead,RB-259
+Q185,runbook,How long do we have for the recovery step when server software component hits our servers?,60 minutes,RB-254
+Q186,runbook,"If we miss the deadline for isolating the affected asset (Remote Services, object storage), who do we escalate to?",identity-lead,RB-172
+Q187,runbook,What's the deadline for the recovery step on object storage after a brute force alert?,120 minutes,RB-099
+Q188,runbook,"If we miss the deadline for isolating the affected asset (external remote services, containers), who do we escalate to?",data-lead,RB-037
+Q189,runbook,What's the deadline for isolating the affected asset on container workloads after a T1078 alert?,240 minutes,RB-062
+Q190,runbook,"If we miss the deadline for the detection step (Remote Services, servers), who do we escalate to?",analytics-lead,RB-151
+Q191,runbook,How long do we have for the verification step when exfiltration over web service hits our databases?,30 minutes,RB-235
+Q192,runbook,"If we miss the deadline for the detection step (Data Encrypted for Impact (T1486), servers), who do we escalate to?",analytics-lead,RB-201
+Q193,runbook,How long do we have for the detection step when T1567 hits our LBs?,60 minutes,RB-241
+Q194,runbook,"If we miss the deadline for containing it (T1190, containers), who do we escalate to?",data-lead,RB-012
+Q195,runbook,Time limit for the detection step — Exploitation for Client Execution on storage buckets?,15 minutes,RB-296
+Q196,runbook,"If we miss the deadline for isolating the affected asset (Server Software Component (T1505), load balancers), who do we escalate to?",payments-lead,RB-267
+Q197,runbook,Time limit for eradication — External Remote Services (T1133) on servers?,30 minutes,RB-028
+Q198,runbook,Who gets paged if removing the attacker's foothold on LBs runs late for Exfiltration Over Web Service?,payments-lead,RB-243
+Q199,runbook,How long do we have for the verification step when Exploit Public-Facing Application (T1190) hits our servers?,45 minutes,RB-005
+Q200,runbook,"If we miss the deadline for eradication (Command and Scripting Interpreter, object storage), who do we escalate to?",identity-lead,RB-123
+Q201,graph,How many internet-facing prod assets have an unpatched Critical vulnerability that enables Exploit Public-Facing Application (T1190)?,24,GRAPH
+Q202,graph,How many internet-facing prod assets have an unpatched High vulnerability that enables External Remote Services (T1133)?,10,GRAPH
+Q203,graph,How many internet-facing staging assets have an unpatched Critical vulnerability that enables Valid Accounts (T1078)?,0,GRAPH
+Q204,graph,How many internet-facing staging assets have an unpatched High vulnerability that enables Brute Force (T1110)?,9,GRAPH
+Q205,graph,How many internet-facing prod assets have an unpatched Critical vulnerability that enables Command and Scripting Interpreter (T1059)?,28,GRAPH
+Q206,graph,How many internet-facing prod assets have an unpatched High vulnerability that enables Exploitation for Privilege Escalation (T1068)?,13,GRAPH
+Q207,graph,How many internet-facing staging assets have an unpatched Critical vulnerability that enables Remote Services (T1021)?,2,GRAPH
+Q208,graph,How many internet-facing staging assets have an unpatched High vulnerability that enables Unsecured Credentials (T1552)?,1,GRAPH
+Q209,graph,How many internet-facing prod assets have an unpatched Critical vulnerability that enables Data Encrypted for Impact (T1486)?,4,GRAPH
+Q210,graph,How many internet-facing prod assets have an unpatched High vulnerability that enables Exfiltration Over Web Service (T1567)?,40,GRAPH
+Q211,graph,How many internet-facing staging assets have an unpatched Critical vulnerability that enables Server Software Component (T1505)?,19,GRAPH
+Q212,graph,How many internet-facing staging assets have an unpatched High vulnerability that enables Exploitation for Client Execution (T1203)?,10,GRAPH
+Q213,graph,How many internet-facing prod assets have an unpatched Critical vulnerability that enables Exploit Public-Facing Application (T1190)?,24,GRAPH
+Q214,graph,How many internet-facing prod assets have an unpatched High vulnerability that enables External Remote Services (T1133)?,10,GRAPH
+Q215,graph,How many internet-facing staging assets have an unpatched Critical vulnerability that enables Valid Accounts (T1078)?,0,GRAPH
+Q216,graph,How many internet-facing staging assets have an unpatched High vulnerability that enables Brute Force (T1110)?,9,GRAPH
+Q217,graph,How many internet-facing prod assets have an unpatched Critical vulnerability that enables Command and Scripting Interpreter (T1059)?,28,GRAPH
+Q218,graph,How many internet-facing prod assets have an unpatched High vulnerability that enables Exploitation for Privilege Escalation (T1068)?,13,GRAPH
+Q219,graph,How many internet-facing staging assets have an unpatched Critical vulnerability that enables Remote Services (T1021)?,2,GRAPH
+Q220,graph,How many internet-facing staging assets have an unpatched High vulnerability that enables Unsecured Credentials (T1552)?,1,GRAPH
+Q221,graph,How many internet-facing prod assets have an unpatched Critical vulnerability that enables Data Encrypted for Impact (T1486)?,4,GRAPH
+Q222,graph,How many internet-facing prod assets have an unpatched High vulnerability that enables Exfiltration Over Web Service (T1567)?,40,GRAPH
+Q223,graph,How many internet-facing staging assets have an unpatched Critical vulnerability that enables Server Software Component (T1505)?,19,GRAPH
+Q224,graph,How many internet-facing staging assets have an unpatched High vulnerability that enables Exploitation for Client Execution (T1203)?,10,GRAPH
+Q225,graph,How many internet-facing prod assets have an unpatched Critical vulnerability that enables Exploit Public-Facing Application (T1190)?,24,GRAPH
+Q226,graph,How many internet-facing prod assets have an unpatched High vulnerability that enables External Remote Services (T1133)?,10,GRAPH
+Q227,graph,How many internet-facing staging assets have an unpatched Critical vulnerability that enables Valid Accounts (T1078)?,0,GRAPH
+Q228,graph,How many internet-facing staging assets have an unpatched High vulnerability that enables Brute Force (T1110)?,9,GRAPH
+Q229,graph,How many internet-facing prod assets have an unpatched Critical vulnerability that enables Command and Scripting Interpreter (T1059)?,28,GRAPH
+Q230,graph,How many internet-facing prod assets have an unpatched High vulnerability that enables Exploitation for Privilege Escalation (T1068)?,13,GRAPH
+Q231,graph,How many internet-facing staging assets have an unpatched Critical vulnerability that enables Remote Services (T1021)?,2,GRAPH
+Q232,graph,How many internet-facing staging assets have an unpatched High vulnerability that enables Unsecured Credentials (T1552)?,1,GRAPH
+Q233,graph,How many internet-facing prod assets have an unpatched Critical vulnerability that enables Data Encrypted for Impact (T1486)?,4,GRAPH
+Q234,graph,How many internet-facing prod assets have an unpatched High vulnerability that enables Exfiltration Over Web Service (T1567)?,40,GRAPH
+Q235,graph,How many internet-facing staging assets have an unpatched Critical vulnerability that enables Server Software Component (T1505)?,19,GRAPH
+Q236,graph,How many internet-facing staging assets have an unpatched High vulnerability that enables Exploitation for Client Execution (T1203)?,10,GRAPH
+Q237,graph,How many internet-facing prod assets have an unpatched Critical vulnerability that enables Exploit Public-Facing Application (T1190)?,24,GRAPH
+Q238,graph,How many internet-facing prod assets have an unpatched High vulnerability that enables External Remote Services (T1133)?,10,GRAPH
+Q239,graph,How many internet-facing staging assets have an unpatched Critical vulnerability that enables Valid Accounts (T1078)?,0,GRAPH
+Q240,graph,How many internet-facing staging assets have an unpatched High vulnerability that enables Brute Force (T1110)?,9,GRAPH
+Q241,graph,How many internet-facing prod assets have an unpatched Critical vulnerability that enables Command and Scripting Interpreter (T1059)?,28,GRAPH
+Q242,graph,How many internet-facing prod assets have an unpatched High vulnerability that enables Exploitation for Privilege Escalation (T1068)?,13,GRAPH
+Q243,graph,How many internet-facing staging assets have an unpatched Critical vulnerability that enables Remote Services (T1021)?,2,GRAPH
+Q244,graph,How many internet-facing staging assets have an unpatched High vulnerability that enables Unsecured Credentials (T1552)?,1,GRAPH
+Q245,graph,How many internet-facing prod assets have an unpatched Critical vulnerability that enables Data Encrypted for Impact (T1486)?,4,GRAPH
+Q246,graph,How many internet-facing prod assets have an unpatched High vulnerability that enables Exfiltration Over Web Service (T1567)?,40,GRAPH
+Q247,graph,How many internet-facing staging assets have an unpatched Critical vulnerability that enables Server Software Component (T1505)?,19,GRAPH
+Q248,graph,How many internet-facing staging assets have an unpatched High vulnerability that enables Exploitation for Client Execution (T1203)?,10,GRAPH
+Q249,graph,How many internet-facing prod assets have an unpatched Critical vulnerability that enables Exploit Public-Facing Application (T1190)?,24,GRAPH
+Q250,graph,How many internet-facing prod assets have an unpatched High vulnerability that enables External Remote Services (T1133)?,10,GRAPH
+Q251,graph,How many internet-facing staging assets have an unpatched Critical vulnerability that enables Valid Accounts (T1078)?,0,GRAPH
+Q252,graph,How many internet-facing staging assets have an unpatched High vulnerability that enables Brute Force (T1110)?,9,GRAPH
+Q253,graph,How many internet-facing prod assets have an unpatched Critical vulnerability that enables Command and Scripting Interpreter (T1059)?,28,GRAPH
+Q254,graph,How many internet-facing prod assets have an unpatched High vulnerability that enables Exploitation for Privilege Escalation (T1068)?,13,GRAPH
+Q255,graph,How many internet-facing staging assets have an unpatched Critical vulnerability that enables Remote Services (T1021)?,2,GRAPH
+Q256,graph,How many internet-facing staging assets have an unpatched High vulnerability that enables Unsecured Credentials (T1552)?,1,GRAPH
+Q257,graph,How many internet-facing prod assets have an unpatched Critical vulnerability that enables Data Encrypted for Impact (T1486)?,4,GRAPH
+Q258,graph,How many internet-facing prod assets have an unpatched High vulnerability that enables Exfiltration Over Web Service (T1567)?,40,GRAPH
+Q259,graph,How many internet-facing staging assets have an unpatched Critical vulnerability that enables Server Software Component (T1505)?,19,GRAPH
+Q260,graph,How many internet-facing staging assets have an unpatched High vulnerability that enables Exploitation for Client Execution (T1203)?,10,GRAPH
+Q261,graph,How many internet-facing prod assets have an unpatched Critical vulnerability that enables Exploit Public-Facing Application (T1190)?,24,GRAPH
+Q262,graph,How many internet-facing prod assets have an unpatched High vulnerability that enables External Remote Services (T1133)?,10,GRAPH
+Q263,graph,How many internet-facing staging assets have an unpatched Critical vulnerability that enables Valid Accounts (T1078)?,0,GRAPH
+Q264,graph,How many internet-facing staging assets have an unpatched High vulnerability that enables Brute Force (T1110)?,9,GRAPH
+Q265,graph,How many internet-facing prod assets have an unpatched Critical vulnerability that enables Command and Scripting Interpreter (T1059)?,28,GRAPH
+Q266,graph,How many internet-facing prod assets have an unpatched High vulnerability that enables Exploitation for Privilege Escalation (T1068)?,13,GRAPH
+Q267,graph,How many internet-facing staging assets have an unpatched Critical vulnerability that enables Remote Services (T1021)?,2,GRAPH
+Q268,graph,How many internet-facing staging assets have an unpatched High vulnerability that enables Unsecured Credentials (T1552)?,1,GRAPH
+Q269,graph,How many internet-facing prod assets have an unpatched Critical vulnerability that enables Data Encrypted for Impact (T1486)?,4,GRAPH
+Q270,graph,How many internet-facing prod assets have an unpatched High vulnerability that enables Exfiltration Over Web Service (T1567)?,40,GRAPH
+Q271,graph,How many internet-facing staging assets have an unpatched Critical vulnerability that enables Server Software Component (T1505)?,19,GRAPH
+Q272,graph,How many internet-facing staging assets have an unpatched High vulnerability that enables Exploitation for Client Execution (T1203)?,10,GRAPH
+Q273,graph,How many internet-facing prod assets have an unpatched Critical vulnerability that enables Exploit Public-Facing Application (T1190)?,24,GRAPH
+Q274,graph,How many internet-facing prod assets have an unpatched High vulnerability that enables External Remote Services (T1133)?,10,GRAPH
+Q275,graph,How many internet-facing staging assets have an unpatched Critical vulnerability that enables Valid Accounts (T1078)?,0,GRAPH
+Q276,graph,How many internet-facing staging assets have an unpatched High vulnerability that enables Brute Force (T1110)?,9,GRAPH
+Q277,graph,How many internet-facing prod assets have an unpatched Critical vulnerability that enables Command and Scripting Interpreter (T1059)?,28,GRAPH
+Q278,graph,How many internet-facing prod assets have an unpatched High vulnerability that enables Exploitation for Privilege Escalation (T1068)?,13,GRAPH
+Q279,graph,How many internet-facing staging assets have an unpatched Critical vulnerability that enables Remote Services (T1021)?,2,GRAPH
+Q280,graph,How many internet-facing staging assets have an unpatched High vulnerability that enables Unsecured Credentials (T1552)?,1,GRAPH
+Q281,graph,How many internet-facing prod assets have an unpatched Critical vulnerability that enables Data Encrypted for Impact (T1486)?,4,GRAPH
+Q282,graph,How many internet-facing prod assets have an unpatched High vulnerability that enables Exfiltration Over Web Service (T1567)?,40,GRAPH
+Q283,graph,How many internet-facing staging assets have an unpatched Critical vulnerability that enables Server Software Component (T1505)?,19,GRAPH
+Q284,graph,How many internet-facing staging assets have an unpatched High vulnerability that enables Exploitation for Client Execution (T1203)?,10,GRAPH
+Q285,graph,How many internet-facing prod assets have an unpatched Critical vulnerability that enables Exploit Public-Facing Application (T1190)?,24,GRAPH
+Q286,graph,How many internet-facing prod assets have an unpatched High vulnerability that enables External Remote Services (T1133)?,10,GRAPH
+Q287,graph,How many internet-facing staging assets have an unpatched Critical vulnerability that enables Valid Accounts (T1078)?,0,GRAPH
+Q288,graph,How many internet-facing staging assets have an unpatched High vulnerability that enables Brute Force (T1110)?,9,GRAPH
+Q289,graph,How many internet-facing prod assets have an unpatched Critical vulnerability that enables Command and Scripting Interpreter (T1059)?,28,GRAPH
+Q290,graph,How many internet-facing prod assets have an unpatched High vulnerability that enables Exploitation for Privilege Escalation (T1068)?,13,GRAPH
+Q291,graph,How many internet-facing staging assets have an unpatched Critical vulnerability that enables Remote Services (T1021)?,2,GRAPH
+Q292,graph,How many internet-facing staging assets have an unpatched High vulnerability that enables Unsecured Credentials (T1552)?,1,GRAPH
+Q293,graph,How many internet-facing prod assets have an unpatched Critical vulnerability that enables Data Encrypted for Impact (T1486)?,4,GRAPH
+Q294,graph,How many internet-facing prod assets have an unpatched High vulnerability that enables Exfiltration Over Web Service (T1567)?,40,GRAPH
+Q295,graph,How many internet-facing staging assets have an unpatched Critical vulnerability that enables Server Software Component (T1505)?,19,GRAPH
+Q296,graph,How many internet-facing staging assets have an unpatched High vulnerability that enables Exploitation for Client Execution (T1203)?,10,GRAPH
+Q297,graph,How many internet-facing prod assets have an unpatched Critical vulnerability that enables Exploit Public-Facing Application (T1190)?,24,GRAPH
+Q298,graph,How many internet-facing prod assets have an unpatched High vulnerability that enables External Remote Services (T1133)?,10,GRAPH
+Q299,graph,How many internet-facing staging assets have an unpatched Critical vulnerability that enables Valid Accounts (T1078)?,0,GRAPH
+Q300,graph,How many internet-facing staging assets have an unpatched High vulnerability that enables Brute Force (T1110)?,9,GRAPH

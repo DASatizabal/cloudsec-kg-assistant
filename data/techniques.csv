@@ -1,0 +1,13 @@
+technique_id,technique_name,tactic,typical_asset_types
+T1190,Exploit Public-Facing Application,Initial Access,LoadBalancer|Server
+T1133,External Remote Services,Initial Access,Server|Container
+T1078,Valid Accounts,Initial Access,Database|Storage
+T1110,Brute Force,Credential Access,Database|Server
+T1059,Command and Scripting Interpreter,Execution,Server|Container
+T1068,Exploitation for Privilege Escalation,Privilege Escalation,Server|Container
+T1021,Remote Services,Lateral Movement,Server|Database
+T1552,Unsecured Credentials,Credential Access,Storage|Container
+T1486,Data Encrypted for Impact,Impact,Storage|Database
+T1567,Exfiltration Over Web Service,Exfiltration,Storage|LoadBalancer
+T1505,Server Software Component,Persistence,Server|LoadBalancer
+T1203,Exploitation for Client Execution,Execution,Container|Server
